@@ -1,0 +1,102 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {}
+
+.top-header {
+    background-color: #3191FF;
+    padding: 15px 0;
+    position: relative;
+}
+
+.contact-top {}
+
+.contact-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-top ul li {
+    display: inline-block;
+}
+
+.contact-top ul li a {
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.account-nav {}
+
+.account-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.account-nav ul li {
+    display: inline-block;
+}
+
+.account-nav ul li a {
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header {background-color: #fff;box-shadow: 0 0 10px #8B8B8B38;}
+.navbar-expand-lg{
+    padding: 0;
+}
+
+.navbar-brand {max-width: 80px;width: auto;}
+
+.nav-link {
+    color: #707070;
+    text-decoration: none;
+    font-weight: 600;
+    transition: linear .2s;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.nav-link:hover{
+    color: #78B52D;
+    transition: linear .2s;
+}
+.nav-link.active {
+    color: #78B52D;
+    text-decoration: underline;
+}
+
+.navbar-toggler {}
+
+.navbar-toggler i {}
+
+.search-icon {
+    background-color: #78B52D;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+}
+.search-icon:hover{
+    border-color: #78B52D;
+    background-color: #fff;
+}
+.search-form {}
+
+.search-form input {}
+
+.search-form button {}
+
+.search-form button i {}
