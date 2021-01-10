@@ -37,34 +37,16 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" href="#">my routine</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">academic courses</a>
+                                    <a class="nav-link" href="#">courses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">career courses</a>
+                                    <a class="nav-link" href="#">my payment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">information</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">publication</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">stipened</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">contact us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="nav-link search-icon"><i class="fas fa-search"></i></button>
-                                    <div uk-dropdown="mode: click">
-                                        <form action="#" class="search-form">
-                                            <input type="search" placeholder="Search here..." required>
-                                            <button type="submit" role="button"><i class="fa fa-search"></i></button>
-                                        </form>
-                                    </div>
+                                    <a class="nav-link" href="#">my books</a>
                                 </li>
                             </ul>
                         </div>
@@ -74,6 +56,310 @@
         </div>
 
     </header>
+    <!-- daily routine content -->
+    <div class="container">
+        <div class="short-routine">
+            <div class="routine-overview">
+                <img src="images/routine-icon.svg" alt="">
+                <ul>
+                    <li>
+                        <h2>My routine today</h2>
+                    </li>
+                    <li>
+                        <p>7 Class</p>
+                    </li>
+                    <li>
+                        <p>1 Examination</p>
+                    </li>
+                    <li>
+                        <p>6 Home work</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="routine-schedule">
+                <ul>
+                    <li><i class="fas fa-chevron-circle-right"></i><span>12.00 PM :</span>Text here</li>
+                    <li><i class="fas fa-chevron-circle-right"></i><span>12.00 PM :</span>Text here</li>
+                    <li><i class="fas fa-chevron-circle-right"></i><span>12.00 PM :</span>Text here</li>
+                    <li><i class="fas fa-chevron-circle-right"></i><span>12.00 PM :</span>Text here</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="routine-tab">
+        <ul class="routine-tab-nav" uk-switcher="connect: .routine-tab-container">
+            <li><a href="#">Lectures<br><i class="fas fa-chevron-circle-down"></i></a></li>
+            <li><a href="#">Examination<br><i class="fas fa-chevron-circle-down"></i></a></li>
+            <li><a href="#">Exercise<br><i class="fas fa-chevron-circle-down"></i></a></li>
+        </ul>
+        <div class="container">
+            <ul class="uk-switcher routine-tab-container uk-margin">
+                <li>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="citem-box">
+                                <div class="citem-header">
+                                    <h3>Title Here</h3>
+                                    <p>07th January, 2021; 03.30 pm</p>
+                                </div>
+                                <div class="citem-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat
+                                        nostrum aliquam iste aliquid officiis alias repudiandae, id, obcaecati sapiente
+                                        debitis unde porro beatae perspiciatis. Laborum suscipit vel dicta distinctio.
+                                    </p>
+                                </div>
+                                <div class="citem-footer">
+                                    <ul>
+                                        <li><a href="#" target="_blank"><i class="fas fa-play"></i>Start class</a></li>
+                                        <li><a href="#" target="_blank"><i class="fas fa-graduation-cap"></i>Study
+                                                material</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <!--  -->
+                </li>
+                <li>
+                    <!--  -->
+                </li>
+            </ul>
+        </div>
+    </section>
 
 
 

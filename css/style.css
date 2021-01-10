@@ -76,10 +76,11 @@ header {}
 .nav-link {
     color: #707070;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     transition: linear .2s;
-    text-transform: uppercase;
-    margin-right: 10px;
+    text-transform: capitalize;
+    margin-left: 15px;
+    font-size: 15px;
 }
 
 .nav-link:hover {
@@ -184,15 +185,14 @@ header {}
     box-shadow: inset 0 0 5px 2px #3e3e3e14;
 }
 
-.form-body form p a {}
+.form-body form p select:focus {
+    box-shadow: inset 0 0 5px 2px #3e3e3e14;
+}
 
-.form-log p {}
+.form-body form p a {
+    margin-left: 15px;
+}
 
-.form-log p label {}
-
-.form-log p input {}
-
-.form-log p a {}
 
 .btn-submit {
     background-color: #9FBE3C;
@@ -200,8 +200,8 @@ header {}
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 15px 20px;
+    border-radius: 10px;
     text-transform: uppercase;
     border: none;
     width: 100%;
@@ -227,3 +227,204 @@ header {}
 
 /* ********************************************* */
 /* ********************************************* */
+
+
+
+.short-routine {
+    padding: 8px;
+    background-color: #FF8D29;
+    border-radius: 300px;
+    display: table;
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+.routine-overview {
+    display: table-cell;
+    width: 400px;
+    vertical-align: middle;
+}
+
+.routine-overview img {
+    width: 105px;
+    margin-right: 15px;
+    float: left;
+}
+
+.routine-overview ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.routine-overview ul li {}
+
+.routine-overview ul li h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.routine-overview ul li p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+}
+
+.routine-schedule {
+    background-color: #fff;
+    border-radius: 150px;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+.routine-schedule ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.routine-schedule ul li {
+    font-size: 15px;
+    line-height: 25px;
+    color: #a5a5a5;
+}
+
+.routine-schedule ul li i {
+    color: #9FBE3B;
+    margin-right: 10px;
+}
+
+.routine-schedule ul li span {
+    color: #FF8D29;
+    margin-right: 5px;
+}
+
+/* **************************************** */
+/* **************************************** */
+.routine-tab {
+    margin-top: 30px;
+}
+
+.routine-tab-nav {
+    background: #F3F3F3;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.routine-tab-nav li {
+    display: inline-flex;
+    margin: 10px 15px;
+}
+
+.routine-tab-nav li a {
+    background-color: #FFF;
+    color: #7B7B7B;
+    text-decoration: none;
+    padding: 5px 36px;
+    border-radius: 40px;
+}
+
+.routine-tab-nav li a i {
+    color: #9FBE3B;
+}
+
+.routine-tab-nav li.uk-active a {
+    background-color: #9FBE3B;
+    color: #fff;
+}
+
+.routine-tab-nav li.uk-active a i {
+    color: #fff;
+}
+
+.citem-box {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #8B8B8B38;
+    margin-bottom: 30px;
+    padding: 22px 25px;
+    padding-bottom: 20px;
+}
+
+.citem-header {}
+
+.citem-header h3 {
+    font-size: 28px;
+    line-height: 40px;
+    color: #9FBE3B;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.citem-header p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #7B7B7B;
+    margin-top: 3px;
+
+}
+
+.citem-body {
+    padding-bottom: 5px;
+}
+
+.citem-body p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #9F9F9F;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+
+}
+
+.citem-footer {}
+
+.citem-footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.citem-footer ul li {
+    display: inline-flex;
+    width: 50%;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.citem-footer ul li:last-child {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.citem-footer ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #FF8D29;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.citem-footer ul li a i {
+    margin-right: 8px;
+}
