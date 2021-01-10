@@ -5,6 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+a {
+    color: #006FFF;
+}
+
+
+/* ***************************** */
 header {}
 
 .top-header {
@@ -52,12 +59,19 @@ header {}
     text-decoration: none;
 }
 
-.main-header {background-color: #fff;box-shadow: 0 0 10px #8B8B8B38;}
-.navbar-expand-lg{
+.main-header {
+    background-color: #fff;
+    box-shadow: 0 0 10px #8B8B8B38;
+}
+
+.navbar-expand-lg {
     padding: 0;
 }
 
-.navbar-brand {max-width: 80px;width: auto;}
+.navbar-brand {
+    max-width: 80px;
+    width: auto;
+}
 
 .nav-link {
     color: #707070;
@@ -67,10 +81,12 @@ header {}
     text-transform: uppercase;
     margin-right: 10px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #78B52D;
     transition: linear .2s;
 }
+
 .nav-link.active {
     color: #78B52D;
     text-decoration: underline;
@@ -89,10 +105,12 @@ header {}
     width: 40px;
     font-size: 16px;
 }
-.search-icon:hover{
+
+.search-icon:hover {
     border-color: #78B52D;
     background-color: #fff;
 }
+
 .search-form {}
 
 .search-form input {}
@@ -100,3 +118,110 @@ header {}
 .search-form button {}
 
 .search-form button i {}
+
+
+/* ********************************************* */
+/* Sign in & sign up page css */
+/* ********************************************* */
+.account-log {
+    margin-top: 80px;
+    margin-bottom: 150px;
+
+}
+
+.form-account {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #8B8B8B38;
+    padding: 40px 40px;
+}
+
+.form-header {}
+
+.form-header img {
+    width: 85px;
+
+}
+
+.form-header h1 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.form-log {}
+
+.form-body {}
+
+.form-body form {}
+
+.form-body form p {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.form-body form p label {
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.form-body form p input,
+.form-body form p select {
+    width: 100%;
+    display: block;
+    border: 1px solid #707070c0;
+    border-radius: 4px;
+    padding: 8px 15px;
+
+}
+
+.form-body form p input:focus {
+    border: 1px solid #707070;
+}
+
+.form-body form p a {}
+
+.form-log p {}
+
+.form-log p label {}
+
+.form-log p input {}
+
+.form-log p a {}
+
+.btn-submit {
+    background-color: #9FBE3C;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    transition: linear .2s;
+}
+
+.btn-submit:hover {
+    transition: linear .2s;
+    background-color: #78B52D;
+}
+
+.form-footer {}
+
+.form-footer p {
+    color: #a5a5a5;
+}
+
+.form-footer p a {}
+
+
+
+
+
+/* ********************************************* */
+/* ********************************************* */
