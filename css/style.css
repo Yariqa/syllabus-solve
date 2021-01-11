@@ -431,9 +431,7 @@ header {}
 
 /* *********************************************** */
 /* *********************************************** */
-.price-sec {
-
-}
+.price-sec {}
 
 .price-table {
     border: 1px solid #FF8D29;
@@ -443,10 +441,12 @@ header {}
     margin: 30px 0;
     transition: linear .3s;
 }
-.price-table:hover{
+
+.price-table:hover {
     box-shadow: 0 0 30px #8b8b8b8b;
     transition: linear .3s;
 }
+
 .p-table-header {
     background-color: #FF8D29;
     padding: 25px 10px;
@@ -516,8 +516,42 @@ header {}
     padding: 8px 40px;
     transition: linear .3s;
 }
-.price-table:hover .p-table-footer button{
-    background: #FF8D29 ;
+
+.price-table:hover .p-table-footer button {
+    background: #FF8D29;
     transition: linear .3s;
     color: #fff;
+}
+
+.featured-sec {
+    margin-top: 35px;
+    margin-bottom: 60px;
+
+}
+
+.featured-item {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.featured-item img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.featured-item h3 {
+    margin: 0;
+    color: #984700;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.featured-item p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A4A4A4;
 }
