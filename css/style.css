@@ -428,3 +428,96 @@ header {}
 .citem-footer ul li a i {
     margin-right: 8px;
 }
+
+/* *********************************************** */
+/* *********************************************** */
+.price-sec {
+
+}
+
+.price-table {
+    border: 1px solid #FF8D29;
+    border-radius: 25px;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 0;
+    transition: linear .3s;
+}
+.price-table:hover{
+    box-shadow: 0 0 30px #8b8b8b8b;
+    transition: linear .3s;
+}
+.p-table-header {
+    background-color: #FF8D29;
+    padding: 25px 10px;
+    transition: linear .3s;
+}
+
+.p-table-header h3 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1.8px;
+
+}
+
+.p-table-header h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.p-table-header h2 small {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.p-table-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.p-table-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.p-table-body ul li {
+
+    font-size: 15px;
+    line-height: 22px;
+    color: #8F8F8F;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+
+}
+
+
+.p-table-footer {
+    margin-bottom: 25px;
+}
+
+.p-table-footer button {
+    border: none;
+    color: #8F8F8F;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ffffff 0%, #e5e5e5 50%, #ffffff 100%);
+    padding: 8px 40px;
+    transition: linear .3s;
+}
+.price-table:hover .p-table-footer button{
+    background: #FF8D29 ;
+    transition: linear .3s;
+    color: #fff;
+}
