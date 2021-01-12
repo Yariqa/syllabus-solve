@@ -8,19 +8,38 @@ $('input,textarea').focus(function () {
 
 
 // pricing carousel
-$('.owl-carousel').owlCarousel({
-    loop:false,
-    margin:25,
-    nav:false,
-    responsive:{
-        0:{
-            items:1
+$('.prices-carousel').owlCarousel({
+    loop: false,
+    margin: 25,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
         },
-        600:{
-            items:3
+        600: {
+            items: 3
         },
-        1000:{
-            items:3
+        1000: {
+            items: 3
+        }
+    }
+})
+
+// teacher carousel
+$('.teacher-carousel').owlCarousel({
+    loop: true,
+    margin: 25,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 4
         }
     }
 })

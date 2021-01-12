@@ -10,6 +10,9 @@ a {
     color: #006FFF;
 }
 
+a:hover {
+    text-decoration: none;
+}
 
 /* ***************************** */
 header {}
@@ -555,3 +558,152 @@ header {}
     line-height: 22px;
     color: #A4A4A4;
 }
+
+.about-sec {
+    background-image: url(../images/about-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+.sec-title {}
+
+.sec-title h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 72px;
+}
+
+.sec-title p {
+    font-size: 15px;
+    color: #5e5e5e;
+}
+
+.about-content {}
+
+.about-content p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
+
+.about-img {
+    border-radius: 50px 90px 150px 75px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+.about-img img {
+    border-radius: 50px 90px 150px 75px;
+}
+
+.teacher-sec {}
+
+.teacher-slider {}
+
+.teacher-slider .owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+
+.teacher-card {
+    padding: 25px;
+    box-shadow: 0 0 30px #8b8b8b1a;
+    padding-top: 50px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 35px;
+    margin-bottom: 40px;
+}
+
+.teacher-card img {
+    width: 130px !important;
+    height: 130px;
+    border-radius: 36px;
+    position: absolute;
+    top: -75px;
+}
+
+.teacher-desk {
+    padding-top: 25px;
+}
+
+.teacher-desk h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: ;
+}
+
+.teacher-desk h4 {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333;
+}
+
+.teacher-desk p {
+    font-size: 15px;
+    color: #5e5e5e;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.teacher-desk a {
+    position: absolute;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    display: block;
+    padding: 13px;
+    text-align: center;
+    color: #006FFF;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #dadada;
+}
+
+.teacher-desk i {}
+
+.news-sec {
+    background-image: url(../images/news-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    padding: 80px 0;
+    margin: 80px 0;
+    background-color: #F1F1F1;
+}
+
+.news-card {}
+
+.news-card h3 {}
+
+.news-card p {}
+
+.news-card a {}
+
+.news-card i {}
+
+.btn-more {
+    background-color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 30px;
+
+    display: inline-block;
+}
+
+.gallery-sec a {}
