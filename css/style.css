@@ -623,8 +623,18 @@ header {}
     margin-top: 100px;
     border-radius: 35px;
     margin-bottom: 40px;
+    transition: linear .3s;
+    top: 0;
 }
-
+.teacher-card:hover{
+    top: -10px;
+    box-shadow: 0 0 5px #dadada59;
+}
+.teacher-card:hover a{
+       transition: linear .2s;
+    background-color: #006FFF;
+    color: #fff;
+}
 .teacher-card img {
     width: 130px !important;
     height: 130px;
@@ -670,9 +680,14 @@ header {}
     text-align: center;
     color: #006FFF;
     border-radius: 15px;
-    box-shadow: 0 0 15px #dadada;
+    box-shadow: 0 0 15px #dadada59;
+    transition: linear .3s;
 }
-
+.teacher-desk a:hover{
+    transition: linear .3s;
+    background-color: #006FFF;
+    color: #fff;
+}
 .teacher-desk i {}
 
 .news-sec {
