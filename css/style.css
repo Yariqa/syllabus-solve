@@ -652,7 +652,6 @@ header {}
     font-size: 22px;
     font-weight: 500;
     line-height: 32px;
-    color: ;
 }
 
 .teacher-desk h4 {
@@ -729,9 +728,18 @@ header {}
     transition: linear .2s;
     display: inline-block;
 }
+<<<<<<< Updated upstream
 .btn-more:hover{
     color: #fff;
     background-color: #006FFF;
     transition: linear .2s;
 }
 .gallery-sec a {}
+=======
+
+.gallery-sec a {}
+
+
+
+
+>>>>>>> Stashed changes
