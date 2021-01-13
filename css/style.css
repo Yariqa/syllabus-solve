@@ -626,15 +626,18 @@ header {}
     transition: linear .3s;
     top: 0;
 }
-.teacher-card:hover{
+
+.teacher-card:hover {
     top: -10px;
     box-shadow: 0 0 5px #dadada59;
 }
-.teacher-card:hover a{
-       transition: linear .2s;
+
+.teacher-card:hover a {
+    transition: linear .2s;
     background-color: #006FFF;
     color: #fff;
 }
+
 .teacher-card img {
     width: 130px !important;
     height: 130px;
@@ -682,11 +685,13 @@ header {}
     box-shadow: 0 0 15px #dadada59;
     transition: linear .3s;
 }
-.teacher-desk a:hover{
+
+.teacher-desk a:hover {
     transition: linear .3s;
     background-color: #006FFF;
     color: #fff;
 }
+
 .teacher-desk i {}
 
 .news-sec {
@@ -699,8 +704,17 @@ header {}
     background-color: #F1F1F1;
 }
 
-.news-card {background-color: #fff;border-radius: 25px;box-shadow: 0 0 30px #8b8b8b1a;overflow: hidden;padding-bottom: 20px;text-align: right;margin-bottom: 50px;}
-.news-card-tn{
+.news-card {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 30px #8b8b8b1a;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.news-card-tn {
     background-image: url(../images/Rectangle\ 28.png);
     background-size: cover;
     background-position: center center;
@@ -708,11 +722,28 @@ header {}
     height: 220px;
 }
 
-.news-card h3 {font-size: 18px;font-weight: 500;line-height: 26px;margin: 15px;color: #333;text-align: left;}
+.news-card h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 15px;
+    color: #333;
+    text-align: left;
+}
 
-.news-card p {margin: 0 15px;color: #5d5d5d;font-size: 14px;line-height: 20px;padding-bottom: 20px;text-align: left;}
+.news-card p {
+    margin: 0 15px;
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
 
-.news-card a {font-size: 14px;margin: 15px;}
+.news-card a {
+    font-size: 14px;
+    margin: 15px;
+}
 
 .news-card i {
     margin-left: 5px;
@@ -728,18 +759,64 @@ header {}
     transition: linear .2s;
     display: inline-block;
 }
-<<<<<<< Updated upstream
-.btn-more:hover{
+
+.btn-more:hover {
     color: #fff;
     background-color: #006FFF;
     transition: linear .2s;
 }
-.gallery-sec a {}
-=======
 
 .gallery-sec a {}
 
+.gallery-sec a {}
 
 
+.opinion {}
 
->>>>>>> Stashed changes
+.opinion-item {
+    text-align: center;
+}
+
+.opinion-item img {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    border: 3px solid #9FBE3C;
+    box-shadow: 1px 2px 10px #80808045;
+}
+
+.opinion-item h3 {
+    margin-top: 10px;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #333;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.opinion-item h5 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #5d5b5b;
+}
+
+.opinion-item p {
+    max-width: 500px;
+    margin: auto;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #FF8D29;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    background-size: 65%;
+    border-radius: 20px;
+}
+
+
+/* subscribe section */
