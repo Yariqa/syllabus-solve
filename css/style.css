@@ -700,25 +700,38 @@ header {}
     background-color: #F1F1F1;
 }
 
-.news-card {}
+.news-card {background-color: #fff;border-radius: 25px;box-shadow: 0 0 30px #8b8b8b1a;overflow: hidden;padding-bottom: 20px;text-align: right;margin-bottom: 50px;}
+.news-card-tn{
+    background-image: url(../images/Rectangle\ 28.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 220px;
+}
 
-.news-card h3 {}
+.news-card h3 {font-size: 18px;font-weight: 500;line-height: 26px;margin: 15px;color: #333;text-align: left;}
 
-.news-card p {}
+.news-card p {margin: 0 15px;color: #5d5d5d;font-size: 14px;line-height: 20px;padding-bottom: 20px;text-align: left;}
 
-.news-card a {}
+.news-card a {font-size: 14px;margin: 15px;}
 
-.news-card i {}
+.news-card i {
+    margin-left: 5px;
+}
 
 .btn-more {
     background-color: #fff;
-    padding: 8px 20px;
+    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     border: 1px solid;
     border-radius: 30px;
-
+    transition: linear .2s;
     display: inline-block;
 }
-
+.btn-more:hover{
+    color: #fff;
+    background-color: #006FFF;
+    transition: linear .2s;
+}
 .gallery-sec a {}
