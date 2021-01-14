@@ -606,7 +606,7 @@ header {}
     border-radius: 20px 130px;
 }
 
-.teacher-sec {} 
+.teacher-sec {}
 
 .teacher-slider {}
 
@@ -880,4 +880,42 @@ header {}
 .mob-num a i {
     font-size: 18x;
     margin-right: 5px;
+}
+
+
+.classmate-sec {}
+
+
+
+.student-card {
+    background-color: #fff;
+    box-shadow: 0 0 15px #80808042;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.student-card img {
+    width: 100%;
+}
+
+.student-card h3 {
+    color: #FF8D29;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.student-card h4 {
+    color: #9C9C9C;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
 }
