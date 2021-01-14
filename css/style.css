@@ -597,16 +597,16 @@ header {}
 }
 
 .about-img {
-    border-radius: 50px 90px 150px 75px;
+    border-radius: 24px 133px;
     border: 1px dotted #fff;
     padding: 5px;
 }
 
 .about-img img {
-    border-radius: 50px 90px 150px 75px;
+    border-radius: 20px 130px;
 }
 
-.teacher-sec {}
+.teacher-sec {} 
 
 .teacher-slider {}
 
