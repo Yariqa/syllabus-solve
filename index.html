@@ -29,7 +29,7 @@
         <div class="top-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-7">
                         <div class="contact-top">
                             <ul>
                                 <li><a href="tel:(+880) 1234-567890">(+880) 1234-567890</a></li>
@@ -38,7 +38,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-5">
                         <div class="account-nav">
                             <ul>
                                 <li><a href="sign-in.html">Log in</a></li>
@@ -55,9 +55,17 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="index.html"><img src="images/site-logo.svg" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                        <div class="nav-toogler">
+                            <button class="nav-link search-icon navbar-toggler"><i class="fas fa-search"></i></button>
+                            <div class="search-form" uk-dropdown="mode: click">
+                                <form action="#">
+                                    <input type="search" placeholder="Search here..." required><button type="submit"
+                                        role="button"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div><button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                        </div>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
@@ -65,26 +73,87 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">academic courses</a>
+                                    <div class="drop-menu" uk-drop="pos: bottom-center">
+                                        <ul>
+                                            <li><a href="#">Degree/Hon's</a></li>
+                                            <li><a href="#">HSC</a></li>
+                                            <li><a href="#">SSC</a></li>
+                                            <li><a href="#">JSC</a></li>
+                                            <li><a href="#">VII</a></li>
+                                            <li><a href="#">VI</a></li>
+                                            <li><a href="#">PEC</a></li>
+                                            <li><a href="#">IV</a></li>
+                                            <li><a href="#">III</a></li>
+                                            <li><a href="#">Kids</a></li>
+                                            <li><a href="#">Cadet Admission</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">career courses</a>
+                                    <div class="drop-menu" uk-drop="pos: bottom-center">
+                                        <ul>
+                                            <li><a href="#">Basic to Advanced English </a></li>
+                                            <li><a href="#">Grammar Course</a></li>
+                                            <li><a href="#">University Admission English</a></li>
+                                            <li><a href="#">Medical and Dental Admission English</a></li>
+                                            <li><a href="#">BCS Job English</a></li>
+                                            <li><a href="#">Bank Job English</a></li>
+                                            <li><a href="#">NTRCA Job English</a></li>
+                                            <li><a href="#">PSC Ministerial Job English</a></li>
+                                            <li><a href="#">Primary Job English</a></li>
+                                            <li><a href="#">Nursing Recruitment English</a></li>
+                                            <li><a href="#">Bar Council Recruitment English</a></li>
+                                            <li><a href="#">Technical Job English</a></li>
+                                            <li><a href="#">Practice Spoken Method</a></li>
+                                            <li><a href="#">Practice Written Method</a></li>
+                                            <li><a href="#">Practice Reading Method</a></li>
+                                            <li><a href="#">Practice Listening Method</a></li>
+                                            <li><a href="#">IELTS Full Course</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">information</a>
+                                    <div class="drop-menu" uk-drop="pos: bottom-center">
+                                        <ul>
+                                            <li><a href="#">Course Information</a></li>
+                                            <li><a href="#">Admission Information</a></li>
+                                            <li><a href="#">Class Routine</a></li>
+                                            <li><a href="#">Exam Routine</a></li>
+                                            <li><a href="#">Pay Tuition Information</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">publication</a>
+                                    <div class="drop-menu" uk-drop="pos: bottom-center">
+                                        <ul>
+                                            <li><a href="#">English Books</a></li>
+                                            <li><a href="#">Islamic Books</a></li>
+                                            <li><a href="#">Other Books</a></li>
+                                            <li><a href="#">Education Materials</a></li>
+                                            <li><a href="#">Gift Materials</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">stipened</a>
+                                    <div class="drop-menu" uk-drop="pos: bottom-center">
+                                        <ul>
+                                            <li><a href="#">Stipend Information</a></li>
+                                            <li><a href="#">Apply for stipend</a></li>
+                                            <li><a href="#">Stipend Result</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">contact us</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item d-sm-none">
                                     <button class="nav-link search-icon"><i class="fas fa-search"></i></button>
-                                    <div uk-dropdown="mode: click">
-                                        <form action="#" class="search-form">
+                                    <div class="search-form" uk-dropdown="mode: click">
+                                        <form action="#">
                                             <input type="search" placeholder="Search here..." required>
                                             <button type="submit" role="button"><i class="fa fa-search"></i></button>
                                         </form>
@@ -103,7 +172,7 @@
     <section class="price-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 offset-md-2">
+                <div class="col-md-8 offset-md-2 col-sm-12">
                     <div class="price-carousel">
                         <div class="owl-carousel prices-carousel owl-theme">
                             <div class="item">
@@ -237,28 +306,28 @@
     <section class="featured-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="featured-item pt-3">
                         <img src="images/video.svg" alt="">
                         <h3>Perfect learning equipment</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                     </div>
                 </div>
-                <div class="col-md-3 pt-5 mt-5">
+                <div class="col-md-3 col-sm-6 pt-5 mt-5">
                     <div class="featured-item">
                         <img src="images/group.svg" alt="">
                         <h3>Consultancy</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="featured-item">
                         <img src="images/pen.svg" alt="">
                         <h3>Examination Facilities</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                     </div>
                 </div>
-                <div class="col-md-3 pt-5 mt-2">
+                <div class="col-md-3 col-sm-6 pt-5 mt-2">
                     <div class="featured-item">
                         <img src="images/class.svg" alt="">
                         <h3>Qualified Teachers</h3>
@@ -273,7 +342,7 @@
     <section class="about-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="sec-title">
                         <h2>About Us</h2>
                     </div>
@@ -298,7 +367,7 @@
                             molestias accusantium fugit modi nisi, consectetur minima non qui.</p>
                     </div>
                 </div>
-                <div class="col-md-5 ps-5">
+                <div class="col-md-5 col-sm-12 ps-5">
                     <div class="about-img mt-5">
                         <img src="images/Rectangle 10.png" alt="">
                     </div>
@@ -397,7 +466,7 @@
     <!-- Gallery section start from here -->
     <section class="gallery-sec">
         <div class="container">
-            <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
+            <div class="uk-child-width-1-5@m uk-child-width-1-2@s" uk-grid uk-lightbox="animation: slide">
                 <div>
                     <a href="images/Rectangle 35.png" data-caption="Caption Here"><img src="images/Rectangle 35.png"
                             alt=""></a>
@@ -518,7 +587,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="mob-num"><a href="tel:(+880) 1234-567890"><i class="fas fa-mobile-alt"></i>(+880)
-                        1234-567890</a></div>
+                            1234-567890</a></div>
                 </div>
             </div>
 

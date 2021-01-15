@@ -115,11 +115,37 @@ header {}
     background-color: #fff;
 }
 
-.search-form {}
+.search-form {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
 
-.search-form input {}
+.search-form form {
+    position: relative;
+}
 
-.search-form button {}
+.search-form input {
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    padding-right: 50px;
+
+}
+
+.search-form button {
+    border: none;
+    background-color: #78B52D;
+    border-radius: 6px;
+    color: #fff;
+    width: 43px;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
 
 .search-form button i {}
 
@@ -766,9 +792,13 @@ header {}
     transition: linear .2s;
 }
 
-.gallery-sec a {}
+.gallery-sec a {
+    
+}
 
-.gallery-sec a {}
+.gallery-sec a img {
+    width: 100%;
+}
 
 
 .opinion {}
@@ -919,3 +949,38 @@ header {}
     text-align: center;
     margin-bottom: 15px;
 }
+
+.drop-menu {
+    background-color: #fff;
+    box-shadow: 0 0 5px #0000001c;
+}
+
+.drop-menu ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drop-menu ul li {
+    border-bottom: 1px solid ghostwhite;
+}
+
+.drop-menu ul li a {
+    display: block;
+    padding: 5px;
+    color: #707070;
+    transition: linear 0.2s;
+}
+
+.drop-menu ul li a:hover {
+    transition: linear 0.2s;
+    background-color: #fafafa;
+    color: #006FFF;
+}
+
+.nav-toogler {
+    display: flex;
+}
+
+.nav-toogler button {}
