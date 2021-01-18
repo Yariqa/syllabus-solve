@@ -14,6 +14,12 @@ a:hover {
     text-decoration: none;
 }
 
+button,
+button:hover {
+    outline: none !important;
+    transition: linear .2s;
+}
+
 /* ***************************** */
 header {}
 
@@ -1159,10 +1165,159 @@ header {}
     visibility: hidden;
     transition: linear .3s;
 }
-.cart-btn button:hover{
+
+.cart-btn button:hover {
     background-color: #ff3729;
 }
-.product-item:hover .cart-btn button{
+
+.product-item:hover .cart-btn button {
     visibility: visible;
     transition: linear .3s;
 }
+
+
+
+
+
+
+
+
+.cart-sec {
+    margin-top: 80px;
+    margin-bottom: 70px;
+
+}
+
+.cart-table {}
+
+.cart-item {
+    overflow: hidden;
+    padding: 12px 15px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.cart-product-tn {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.cart-product-tn img {}
+
+.cart-product-title {
+    float: left;
+}
+
+.cart-product-title h4 a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.cart-product-title h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.cart-product-title h5 {
+    margin: 0;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.cart-product-title h5 a {
+    color: #929292;
+}
+
+.cart-product-price {
+    float: right;
+    text-align: right;
+}
+
+.cart-product-price p {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px 15px;
+}
+
+.cart-product-price button {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffff;
+    background-color: #FF8D29;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.cart-product-price button:hover {
+    background-color: #ff7700;
+}
+
+.contact-sec {
+    margin-bottom: 80px;
+}
+
+.contact-image {}
+
+.contact-image img {
+    border-radius: 120px 0px 160px 0px;
+    border: 1px solid #707070;
+    width: 100%;
+}
+
+.contact-option {
+    text-align: center;
+}
+
+.contact-option h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contact-option img {
+    width: 120px;
+}
+
+.contact-option p {
+    color: #888888;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+footer {
+    padding: 15px 0;
+    background: #fafafa;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-flex;
+    margin: 0 6px;
+}
+
+footer ul li a {
+    color: gray;
+    padding: 5px;
+    font-size: 18px;
+}
+
+footer ul li a:hover {
+    color: #006FFF;
+}
+
+footer ul li a:hover .fa-youtube {
+    color: #FF0000;
+}
+
+footer ul li a i {}
